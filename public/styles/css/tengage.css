@@ -184,6 +184,24 @@ ul.menu a:hover {
   color: #555555;
 }
 
+/* line 1, ../scss/_home.scss */
+.contact {
+  clear: both;
+  list-style: none;
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+/* line 9, ../scss/_home.scss */
+.contact li {
+  float: left;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  margin-right: 10px;
+}
+
 /* line 3, ../scss/_carosel.scss */
 .slider {
   width: 1200px;
