@@ -1,0 +1,8 @@
+bin
+build
+include
+.Python
+*.pyc
+.DS_Store
+.sass-cache
+node_modules

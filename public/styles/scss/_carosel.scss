@@ -1,0 +1,21 @@
+//images are 980px by 550px
+
+.slider {
+  width:1200px;
+  margin:0 auto;
+  position: relative;
+
+  ul {
+    position:relative;
+    width:1200px;
+    height: 801px;
+  }
+  li {
+    position:absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+    width:100%;
+    height:100%;
+  }
+}

@@ -1,0 +1,46 @@
+$body-copy-color:$black;
+$heading-color:$black;
+$heading-font-family: BebasNeueRegular, arial, sans-serif;
+$body-font-family: BebasNeueRegular, arial, sans-serif;
+
+$base-font-size:16px;
+
+
+
+body {
+  font-family: $body-font-family;
+  color:$body-copy-color;
+  font-size: $base-font-size;
+}
+
+
+@each $heading in headings() {
+  #{$heading} {
+    color:$heading-color;
+    font-family:$heading-font-family;
+    margin:1em 0;
+  }
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+
+}
+h1 {
+  font-size: 2em;
+  line-height: 1.1em;
+}
+h2 {
+  font-size: 1.5em;
+  line-height: 1.1em;
+}
+h3 {
+  font-size: 1.3em;
+  line-height: 1em;
+}
+.redacted {
+    font-family:RedactedScriptLight;
+}
