@@ -147,8 +147,8 @@ body {
 }
 
 /* line 14, ../scss/_common.scss */
-#content {
-  width: 600px;
+#content, #footer {
+  width: 400px;
   margin: 0 auto;
 }
 
@@ -200,6 +200,11 @@ ul.menu a:hover {
   margin: 0;
   position: relative;
   margin-right: 10px;
+}
+/* line 18, ../scss/_home.scss */
+.contact li img {
+  width: 12px;
+  height: 12px;
 }
 
 /* line 3, ../scss/_carosel.scss */
