@@ -4,7 +4,7 @@ $LOAD_PATH << './lib'
 require 'sinatra'
 require 'yaml'
 require 'kramdown'
-require 'TenGage'
+require 'tengage'
 
 use Rack::Static, :urls => ['/type','/images','/scripts','/styles'], :root => 'public'
 use Rack::Session::Cookie, :key => 'rack.session',
