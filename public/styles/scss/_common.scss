@@ -1,21 +1,35 @@
 body {
   margin:0;
   padding:0;
-  background:$white;
+  background:$light_gray;
 }
 
 //layout
-.header {
-  width:1200px;
-  margin: 1em auto;
-  height:75px;
-}
-
-#content, #footer {
+#container {
   width: 400px;
   margin: 0 auto;
 }
 
-[data-url] {
-  cursor:pointer;
+.content {
+  h1 {
+    margin-top:0px;
+    margin-left:10px;
+  }
+
+  img.logo {
+    width:130px;
+    margin:10px;
+  }
+
+  p, ul {
+    margin:10px;
+  }
+
+  background: $white;
+  border-left: 1px solid darken($light_gray, 20%);
+  border-right: 1px solid darken($light_gray, 20%);
+}
+
+.legal {
+  color:#ccc;
 }
